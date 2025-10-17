@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Drill 2</title>
+</head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Libertinus+Serif+Display&family=Story+Script&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			background color: powderblue;
+			background-image: url("Movie.png");
+			font-family:Inter Tight;
+			color: black;
+		}
+
+		h1,hr {
+			color: orange;
+			text-align: center;
+		}
+
+		form{
+			background-color: rgba(255, 255, 255, 1.0);
+			margin: auto;
+			width:40%;
+			padding: 30px;
+			border-radius: 50px;
+		}
+
+;
+
+	</style>
+
+<body>
+	<form>
+	<h1>Movie Recommendation</h1>
+
+		<label for="Name">Name: </label>
+		<br>
+		<input type="text" name="Name">
+		<br>
+		<label for="Your Email">Your Email: </label>
+		<br>
+		<input type="text" name="Your Email">
+		<br>
+		<label for="Recommended Movie Title">Recommended Movie Title: </label>
+		<br>
+		<input type="text" name="Recommended Movie Title">
+		<br>
+		<label for="Why do you recommend it?">Why do you recommend it?</label>
+		<br>
+		<textarea cols="40" rows="5" placeholder="feedback here..."></textarea>
+		<br>
+		<br>
+		
+		<legend>Genres</legend>
+		<input type="checkbox" name="Genres (select all that apply)" value="Action"> 
+		<label>Action</label>		
+		<input type="checkbox" name="Genres (select all that apply)" value="Comedy"> 
+		<label>Comedy</label>
+		
+		<input type="checkbox" name="Genres (select all that apply)" value="Drama"> 
+		<label>Drama</label>
+
+		<input type="checkbox" name="Genres (select all that apply)" value="Fantasy">
+		<label>Fantasy</label>
+
+		<input type="checkbox" name="Genres (select all that apply)" value="Sci-Fi"> 
+		<label>Sci-fi</label>
+		
+		<br>
+		<br>
+
+		<legend>Rate the movie</legend>
+		<input type="radio" name="1" value="1">
+		<label>1</label>
+		<input type="radio" name="2" value="2">
+		<label>2</label>
+		<input type="radio" name="3" value="3">
+		<label>3</label>
+		<input type="radio" name="4" value="4">
+		<label>4</label>
+		<input type="radio" name="5" value="5">
+		<label>5</label>
+
+		<br>
+		<br>
+
+
+		<legend>Where did you watch it?</legend>
+		<label for="platform"></label>
+		<select id="platform" name="platform">
+			<option value="Youtube">Youtube</option>
+			<option value="Netflix">Netflix</option>
+			<option value="Disney+">Disney+</option>
+		</select>
+
+		<br>
+		<br>
+
+		<input type="Submit" value="Submit">
+
+</form>
+
+</body>
+</html>
